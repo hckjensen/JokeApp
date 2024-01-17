@@ -34,7 +34,7 @@
         position: absolute;
         top: 20%;
         color: #FF4500;
-        font-size: 2.5em;
+        font-size: 3em;
         margin-bottom: 50px;
     }
 
@@ -47,7 +47,7 @@
 
     button {
         padding: 10px 20px;
-        font-size: 1em;
+        font-size: 2em;
         color: #fff;
         background-color: #FF69B4;
         border: none;
@@ -55,6 +55,7 @@
         cursor: pointer;
         margin: 10px;
         transition: background-color 0.3s ease;
+        font-family: 'Comic Neue', cursive;
 
         &:hover {
             background-color: #FF1493;
