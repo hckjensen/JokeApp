@@ -43,7 +43,9 @@ function JokeApp() {
 
     // Function to show punchline by setting showPunchline to true
     const getPunchline = () => {
-        setShowPunchline(true);
+        if (showSetup) { // Only show punchline if setup is already showing
+            setShowPunchline(true);
+        }
     };
 
     // fetch a new joke when the component is first rendered
