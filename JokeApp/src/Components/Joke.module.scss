@@ -1,0 +1,60 @@
+/* Joke.module.scss */
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+.jokeApp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FFD700;
+    font-family: 'Comic Neue', cursive;
+
+    .newJoke {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 700px;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 700px;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        color: #FF4500;
+        font-size: 2.5em;
+        margin-bottom: 50px;
+    }
+
+    p {
+        color: #FF69B4;
+        font-size: 1.6rem;
+        fpmt-weight: 700;
+        margin: 20px 0;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 1em;
+        color: #fff;
+        background-color: #FF69B4;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #FF1493;
+        }
+    }
+}
